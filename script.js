@@ -11,7 +11,6 @@ new Vue({
     },
     url: 'submit.php'
   },
-
   methods: {
       submit: function(){
           this.$http.post(this.url, this.form)

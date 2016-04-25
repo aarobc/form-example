@@ -17,7 +17,6 @@
                                crossorigin="anonymous">
 
     </head>
-
     <body>
 
         <div id="app" class="container">
@@ -59,7 +58,6 @@
                     <button v-on:click="response.data = []" class="btn">return</div>
                 </div>
             </div>
-
 
             <!-- if there is a response, we display it here -->
         </div>

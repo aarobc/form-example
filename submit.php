@@ -4,7 +4,6 @@ use Respect\Validation\Validator as V;
 
 // stuff that would be handled in a router
 $data = json_decode(file_get_contents('php://input'), false);
-
 $form = new Form;
 $d = $form->process($data);
 echo json_encode($d);
